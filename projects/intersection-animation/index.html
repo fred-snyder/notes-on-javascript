@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kbsb | Page-element animations with HTML/CSS/JS and the Intersection Observer API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-anim.css">
+    <link href='https://tools-static.wmflabs.org/fontcdn/css?family=IBM+Plex+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://tools-static.wmflabs.org/fontcdn/css?family=IBM+Plex+Serif:500' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <nav class="container nav">
+        <a href="https://www.kaboomshebang.com/" target='_blank' rel="noopener noreferrer">
+            <img class="logo-kaboom" src="https://www.kaboomshebang.com/logos/kaboom_shebang_logo.svg" alt="Kaboom Shebang">
+        </a>
+    </nav>
+    <section class="section" data-anim="fade-in">
+        <div class="container">
+            <h1 class="heading">
+                Page-element animations with HTML/CSS/JS and the Intersection Observer API
+            </h1>
+            <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ultricies malesuada. Nulla a sagittis lacus, finibus ullamcorper lorem. Suspendisse faucibus metus sit amet justo luctus interdum. Quisque mattis imperdiet metus, eget tincidunt neque ullamcorper eget. In mattis eros at tellus pharetra interdum. Nunc pellentesque maximus diam, eu dapibus est tincidunt ac. Aliquam molestie velit scelerisque molestie sodales. Donec auctor, ante at luctus volutpat, mi mauris mattis nulla, sit amet luctus libero nibh in magna. Nunc ac arcu sit amet lectus varius tempor.
+            </p>
+        </div>
+    </section>
+    <section class="section" data-anim="fade-in">
+        <div class="container">
+            <h2 class="heading">
+                Nam at vehicula urna. Integer vel condimentum purus.
+            </h2>
+            <p class="paragraph">
+                Nulla a nibh ante. Proin efficitur, ipsum in malesuada vestibulum, mi dolor suscipit leo, at accumsan lectus velit at tortor. Maecenas ornare leo pretium erat consectetur, eget facilisis nisl pulvinar. Aliquam erat volutpat. Duis et semper nisi, quis eleifend enim. Ut dui augue, consequat in dui in, pulvinar placerat lacus. Vestibulum porta dictum massa. Suspendisse lacinia efficitur eros, non lobortis velit feugiat commodo. Nunc tristique dictum felis eget sagittis. Aenean velit nisl, ornare a sapien quis, ultricies rutrum urna. Duis fermentum nibh lacus, et accumsan odio cursus a. Phasellus pretium non risus ac rutrum. Vestibulum nec lacus justo. Pellentesque commodo interdum egestas. Ut congue elit at dictum fermentum. Pellentesque sit amet posuere massa.
+            </p>
+            <p class="paragraph">
+                In non tellus ornare, pellentesque metus non, egestas ante. Aliquam fermentum enim sed nisi vehicula, id consectetur est fringilla. Cras massa purus, bibendum at ultricies et, vestibulum ut turpis. Donec diam magna, pulvinar et fringilla id, dignissim id elit. Quisque eu felis enim. Fusce feugiat lectus nec velit pretium convallis. Pellentesque facilisis dolor lacus, id dignissim enim ornare id. Donec suscipit metus ac libero varius consequat.
+            </p>
+        </div>
+    </section>
+    <section class="section" data-anim="fade-in">
+        <div class="container">
+            <h2 class="heading">
+                Phasellus dui nunc, lobortis commodo arcu sit amet, luctus posuere ligula.
+            </h2>
+            <p class="paragraph">
+                Curabitur nec lorem tellus. Sed efficitur sodales tortor, tincidunt finibus enim ornare sed. Mauris id dignissim lorem. Donec consequat dolor vel mi lobortis bibendum. Curabitur ullamcorper varius enim ac semper. Suspendisse at nisl ornare, aliquet nisi id, feugiat velit. Phasellus eu nunc ipsum. Donec et sapien fermentum, pulvinar nunc sed, placerat ante. Phasellus semper enim nunc. Phasellus nec dictum mauris, sit amet lacinia metus. Sed diam turpis, fringilla at elementum sed, semper quis massa.
+            </p>
+            <p class="paragraph">
+                Morbi interdum tortor sed lectus vehicula consequat. Morbi tristique, lectus eu aliquam rhoncus, justo massa feugiat tortor, ut dapibus sem metus ut sem. Nunc vitae sagittis metus, non vestibulum nisi. Aliquam nec commodo velit. Vestibulum molestie arcu id pretium faucibus. Duis sapien urna, facilisis vel eros id, sodales consequat nisl. Aliquam at consequat turpis, id ullamcorper odio. Ut semper vulputate nisl, sed sodales ante sagittis lacinia. Morbi eu libero mauris. Nulla pellentesque odio quis feugiat ornare. Nunc rhoncus dolor vel eros rutrum iaculis. Cras et lacus a justo vulputate dictum vitae ac urna. Nulla non est vulputate felis venenatis sagittis vitae sed magna. Aliquam porta iaculis semper. Nunc interdum dolor a turpis feugiat commodo. Donec ornare augue nec lobortis pharetra.
+            </p>
+        </div>
+    </section>
+    <section class="section" data-anim="fade-in">
+        <div class="container">
+            <h2 class="heading">
+                Nullam ultrices id odio vel aliquam. Nulla a dictum odio.
+            </h2>
+            <p class="paragraph">
+                Curabitur nec lorem tellus. Sed efficitur sodales tortor, tincidunt finibus enim ornare sed. Mauris id dignissim lorem. Donec consequat dolor vel mi lobortis bibendum. Curabitur ullamcorper varius enim ac semper. Suspendisse at nisl ornare, aliquet nisi id, feugiat velit. Phasellus eu nunc ipsum. Donec et sapien fermentum, pulvinar nunc sed, placerat ante. Phasellus semper enim nunc. Phasellus nec dictum mauris, sit amet lacinia metus. Sed diam turpis, fringilla at elementum sed, semper quis massa.
+            </p>
+            <p class="paragraph">
+                Morbi interdum tortor sed lectus vehicula consequat. Morbi tristique, lectus eu aliquam rhoncus, justo massa feugiat tortor, ut dapibus sem metus ut sem. Nunc vitae sagittis metus, non vestibulum nisi. Aliquam nec commodo velit. Vestibulum molestie arcu id pretium faucibus. Duis sapien urna, facilisis vel eros id, sodales consequat nisl. Aliquam at consequat turpis, id ullamcorper odio. Ut semper vulputate nisl, sed sodales ante sagittis lacinia. Morbi eu libero mauris. Nulla pellentesque odio quis feugiat ornare. Nunc rhoncus dolor vel eros rutrum iaculis. Cras et lacus a justo vulputate dictum vitae ac urna. Nulla non est vulputate felis venenatis sagittis vitae sed magna. Aliquam porta iaculis semper. Nunc interdum dolor a turpis feugiat commodo. Donec ornare augue nec lobortis pharetra.
+            </p>
+        </div>
+    </section>
+    <section class="section" data-anim="fade-in">
+        <div class="container">
+            <h2 class="heading">
+                Proin vehicula sapien felis, id pulvinar odio tincidunt id.
+            </h2>
+            <p class="paragraph">
+                Mauris mollis odio quis elit posuere, at feugiat augue suscipit. Sed lacinia augue a maximus volutpat. Ut ullamcorper lectus a ipsum ultricies aliquet. Nam malesuada tellus in accumsan sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum elit erat, id aliquet neque fermentum nec. Nam a odio odio. Donec vitae urna consequat, convallis urna sit amet, interdum mauris. Ut auctor eu est nec euismod. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            </p>
+            <p class="paragraph">
+                Morbi vulputate vel purus vitae ullamcorper. Morbi tempor nulla sit amet quam luctus pellentesque. Morbi et elit nec est scelerisque vehicula ac quis diam. Praesent nec sem placerat, congue orci vitae, consectetur sapien. Nunc in diam metus. In gravida bibendum felis, vel consectetur tellus posuere eget. Integer interdum massa ut mauris iaculis fringilla. Mauris lobortis sollicitudin mauris a viverra. Aenean tempus imperdiet purus, non consequat nulla consequat ut. Fusce id felis eu dolor mattis aliquet. Suspendisse potenti.
+            </p>
+        </div>
+    </section>
+    <section class="section" data-anim="fade-in">
+        <div class="container">
+            <h2 class="heading">
+                Nam at vehicula urna. Integer vel condimentum purus.
+            </h2>
+            <p class="paragraph">
+                Nulla a nibh ante. Proin efficitur, ipsum in malesuada vestibulum, mi dolor suscipit leo, at accumsan lectus velit at tortor. Maecenas ornare leo pretium erat consectetur, eget facilisis nisl pulvinar. Aliquam erat volutpat. Duis et semper nisi, quis eleifend enim. Ut dui augue, consequat in dui in, pulvinar placerat lacus. Vestibulum porta dictum massa. Suspendisse lacinia efficitur eros, non lobortis velit feugiat commodo. Nunc tristique dictum felis eget sagittis. Aenean velit nisl, ornare a sapien quis, ultricies rutrum urna. Duis fermentum nibh lacus, et accumsan odio cursus a. Phasellus pretium non risus ac rutrum. Vestibulum nec lacus justo. Pellentesque commodo interdum egestas. Ut congue elit at dictum fermentum. Pellentesque sit amet posuere massa.
+            </p>
+            <p class="paragraph">
+                In non tellus ornare, pellentesque metus non, egestas ante. Aliquam fermentum enim sed nisi vehicula, id consectetur est fringilla. Cras massa purus, bibendum at ultricies et, vestibulum ut turpis. Donec diam magna, pulvinar et fringilla id, dignissim id elit. Quisque eu felis enim. Fusce feugiat lectus nec velit pretium convallis. Pellentesque facilisis dolor lacus, id dignissim enim ornare id. Donec suscipit metus ac libero varius consequat.
+            </p>
+        </div>
+    </section>
+    <section class="section" data-anim="fade-in">
+        <div class="container">
+            <h2 class="heading">
+                Phasellus dui nunc, lobortis commodo arcu sit amet, luctus posuere ligula.
+            </h2>
+            <p class="paragraph">
+                Curabitur nec lorem tellus. Sed efficitur sodales tortor, tincidunt finibus enim ornare sed. Mauris id dignissim lorem. Donec consequat dolor vel mi lobortis bibendum. Curabitur ullamcorper varius enim ac semper. Suspendisse at nisl ornare, aliquet nisi id, feugiat velit. Phasellus eu nunc ipsum. Donec et sapien fermentum, pulvinar nunc sed, placerat ante. Phasellus semper enim nunc. Phasellus nec dictum mauris, sit amet lacinia metus. Sed diam turpis, fringilla at elementum sed, semper quis massa.
+            </p>
+            <p class="paragraph">
+                Morbi interdum tortor sed lectus vehicula consequat. Morbi tristique, lectus eu aliquam rhoncus, justo massa feugiat tortor, ut dapibus sem metus ut sem. Nunc vitae sagittis metus, non vestibulum nisi. Aliquam nec commodo velit. Vestibulum molestie arcu id pretium faucibus. Duis sapien urna, facilisis vel eros id, sodales consequat nisl. Aliquam at consequat turpis, id ullamcorper odio. Ut semper vulputate nisl, sed sodales ante sagittis lacinia. Morbi eu libero mauris. Nulla pellentesque odio quis feugiat ornare. Nunc rhoncus dolor vel eros rutrum iaculis. Cras et lacus a justo vulputate dictum vitae ac urna. Nulla non est vulputate felis venenatis sagittis vitae sed magna. Aliquam porta iaculis semper. Nunc interdum dolor a turpis feugiat commodo. Donec ornare augue nec lobortis pharetra.
+            </p>
+        </div>
+    </section>
+    <footer class="footer footer-text">
+        <span>
+            Webfonts by: <a href="https://fontcdn.toolforge.org/" target='_blank' rel="noopener noreferrer">FontCDN</a>
+        </span>
+        <span> | </span>
+        <span>
+            Created by <a href="https://www.fredsnyder.net" target='_blank' rel="noopener noreferrer">Fred Snyder</a>
+        </span>
+        <img class="logo-shebang" src="https://www.kaboomshebang.com/logos/shebang_3d_for_web.svg" alt="The Kaboom Shebang">
+    </footer>
+    <script src="animation.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# any node_modules folder anywhere in hierarchy
+node_modules
+
+/public/build/
+
+.DS_Store
+
+debug.log
+*.log
