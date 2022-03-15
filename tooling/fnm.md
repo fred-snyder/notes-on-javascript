@@ -13,6 +13,7 @@ exec $SHELL
 
 # list remote node versions
 fnm list-remote
+# node versions with a name in parenthesis are LTS versions
 
 # install specific node version
 fnm install v17.6.0
